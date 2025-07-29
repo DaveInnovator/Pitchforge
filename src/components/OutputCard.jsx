@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Typewriter } from "react-simple-typewriter";
 
 const OutputCard = ({ content }) => {
   const [copied, setCopied] = useState(false);
@@ -9,7 +10,7 @@ const OutputCard = ({ content }) => {
     try {
       await navigator.clipboard.writeText(content);
       setCopied(true);
-      setTimeout(() => setCopied(false), 2000); // Reset after 2s
+      setTimeout(() => setCopied(false), 2000);
     } catch (err) {
       console.error("Failed to copy!", err);
     }
@@ -21,8 +22,15 @@ const OutputCard = ({ content }) => {
         Your AI-Generated Pitch
       </h2>
 
-      <p className="text-gray-300 leading-relaxed whitespace-pre-wrap mb-6">
-        {content}
+      <p className="text-gray-300 leading-relaxed whitespace-pre-wrap mb-6 min-h-[100px]">
+        <Typewriter
+          words={[content]}
+          loop={1}
+          cursor
+          typeSpeed={35}
+          deleteSpeed={0}
+          delaySpeed={1000}
+        />
       </p>
 
       <button
