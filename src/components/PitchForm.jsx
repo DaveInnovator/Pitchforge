@@ -22,7 +22,7 @@ const PitchForm = ({ setPitch, setLoading }) => {
   setPitch("");
 
   try {
-    const prompt = `Generate a persuasive startup pitch for a product called "${product}" targeted at "${targetAudience}". Highlight the following key benefits: ${keyBenefits}. Keep it concise, compelling, and investor-ready.`;
+    const prompt = `Generate a persuasive startup pitch for a product called "${product}" targeted at "${targetAudience}". Highlight the following key benefits: ${keyBenefits}. Keep it concise, compelling, and investor-ready.with present competitors in that field`;
 
     const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
       method: "POST",
