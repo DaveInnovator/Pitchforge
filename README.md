@@ -1,12 +1,103 @@
-# React + Vite
+ 
+##PitchForge.AI##
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI-Powered Startup Pitches — Crafted in 60 Seconds
 
-Currently, two official plugins are available:
+PitchForge.AI helps SaaS founders auto-generate fundable, investor-ready pitch scripts powered by AI and startup insight.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Generate your pitch instantly and impress investors without wasting weeks on writing and refining decks.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+✨ Features
+
+⚡ 60-Second Pitch Generation – Get a tailored pitch instantly.
+
+🤖 AI-Powered Scripts – Smart, context-aware pitch crafting.
+
+💡 Investor-Ready – Structurally optimized to highlight value, traction, and growth potential.
+
+📈 For SaaS Founders – Focused on helping SaaS startups stand out.
+
+
+
+---
+
+🚀 Getting Started
+
+1. Visit pitchforge.pxxl.click
+
+
+2. Click Generate My Pitch.
+
+
+3. Input your startup details.
+
+
+4. Get your AI-generated pitch script in seconds.
+
+
+
+
+---
+
+📸 Preview
+
+
+
+
+
+---
+
+🛠️ Tech Stack
+
+Frontend: React.js / Tailwind CSS
+
+AI Engine: groqq
+
+Deployment: pxxlspace 
+
+
+
+---
+
+🧑‍💻 Local Development
+
+Clone the repo:
+
+git clone https://github.com/DaveInnovator/Pitchforge
+cd pitchforge-ai
+
+Install dependencies:
+
+npm install
+
+Run the dev server:
+
+npm run dev
+
+
+---
+
+##🤝 Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the project
+
+
+2. Create a feature branch (git checkout -b feature-name)
+
+
+3. Commit changes (git commit -m "Add new feature")
+
+
+4. Push to branch (git push origin feature-name)
+
+
+5. Create a Pull Request
+
+
+
+
