@@ -1,5 +1,5 @@
  
-##PitchForge.AI##
+## PitchForge.AI ##
 
 AI-Powered Startup Pitches — Crafted in 60 Seconds
 
@@ -22,11 +22,11 @@ PitchForge.AI helps SaaS founders auto-generate fundable, investor-ready pitch s
 
 
 
----
 
-🚀 Getting Started
 
-1. Visit pitchforge.pxxl.click
+## 🚀 Getting Started
+
+1. Visit https://pitchforge.pxxl.click
 
 
 2. Click Generate My Pitch.
@@ -40,17 +40,10 @@ PitchForge.AI helps SaaS founders auto-generate fundable, investor-ready pitch s
 
 
 
----
-
-📸 Preview
 
 
 
-
-
----
-
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Frontend: React.js / Tailwind CSS
 
@@ -60,9 +53,8 @@ Deployment: pxxlspace
 
 
 
----
 
-🧑‍💻 Local Development
+## 🧑‍💻 Local Development
 
 Clone the repo:
 
@@ -78,9 +70,9 @@ Run the dev server:
 npm run dev
 
 
----
 
-##🤝 Contributing
+
+## 🤝 Contributing
 
 Contributions are welcome! To contribute:
 
