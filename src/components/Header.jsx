@@ -20,7 +20,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-[#0e0e10] text-white w-full shadow-sm z-50 fixed top-0 left-0">
+    <header className="bg-black text-white w-full shadow-sm z-50 fixed top-0 left-0">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <motion.div
@@ -71,7 +71,7 @@ const Header = () => {
             exit="exit"
             variants={menuVariants}
             transition={{ duration: 0.2 }}
-            className="md:hidden bg-[#0e0e10] px-4 pb-4 pt-2 space-y-3"
+            className="md:hidden bg-black px-4 pb-4 pt-2 space-y-3"
           >
             {["Home", "Features", "Pricing", "About"].map((item) => (
               <motion.a
